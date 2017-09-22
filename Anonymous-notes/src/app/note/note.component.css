@@ -1,0 +1,14 @@
+.note {
+    margin: 30px;
+    border: 2px dashed teal;
+    background-color: white;
+    padding: 15px;
+}
+
+/* #content {
+    
+} */
+#date {
+    margin-top: 0;
+
+}

@@ -1,0 +1,24 @@
+
+<div class="main">
+  <h1>
+    {{title}}
+  </h1>
+  <div class="note">
+
+    <form (submit)="formSend()" #noteForm='ngForm'>
+      <h3> Note:
+        <textarea name="content" rows="2" cols="100" required minlength="3" [(ngModel)]='newNote.content'></textarea>
+        <input type="submit" id="button" value="Add Note" [disabled]='noteForm.invalid'>
+      </h3>
+    </form>
+
+  </div>
+
+  <div *ngIf='allNotes.length !=0'>    
+    <app-note *ngFor='let note of allNotes' [thisNote]='note'>
+    </app-note>   
+  </div>
+  
+  
+ 
+</div>

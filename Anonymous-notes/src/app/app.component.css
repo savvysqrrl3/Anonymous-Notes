@@ -1,0 +1,23 @@
+.main {
+    width:80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.note {
+    margin: 30px;
+    border: 2px dashed teal;
+    background-color: white;
+    padding: 15px;
+}
+
+#button {
+    box-shadow: 2px 2px 1px black;
+    color: white;
+    background-color: seagreen;
+}
+
